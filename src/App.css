@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-image: url("arsenalbk.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #010101;
+  width:100%;
+  padding-top:100px;
+  padding-bottom: 100px;
+  color: white;
+
+}
+
+.App-header h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*materialize footer*/
+
+nav {
+  background-color: #ec2325;
+  height:10%;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+/* gear*/
+
+.gear {
+
+  background-image: url("gear.png");
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  width:70px;
+  height:70px;
+
+}
